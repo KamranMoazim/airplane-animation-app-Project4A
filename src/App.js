@@ -71,11 +71,11 @@ function App() {
     };
 
 
-    var background1Movement1 = cloudAnimation1.current.animate(sceneryFrames, cloudTiming1);
-    var background1Movement2 = cloudAnimation2.current.animate(sceneryFrames, cloudTiming2);
-    var background1Movement3 = cloudAnimation3.current.animate(sceneryFrames, cloudTiming3);
-    var background1Movement4 = cloudAnimation4.current.animate(sceneryFrames, cloudTiming4);
-    var background1Movement5 = jetAnimation.current.animate(jetPositions, forAllVehicleTiming);
+    // var background1Movement1 = cloudAnimation1.current.animate(sceneryFrames, cloudTiming1);
+    // var background1Movement2 = cloudAnimation2.current.animate(sceneryFrames, cloudTiming2);
+    // var background1Movement3 = cloudAnimation3.current.animate(sceneryFrames, cloudTiming3);
+    // var background1Movement4 = cloudAnimation4.current.animate(sceneryFrames, cloudTiming4);
+    // var background1Movement5 = jetAnimation.current.animate(jetPositions, forAllVehicleTiming);
     
 })
 
@@ -88,25 +88,25 @@ if (vehicle === 1) {
       <button onClick={toPlane}>Change to Plane</button>
 
       <div ref={cloudAnimation1}>
-        <img src={cloudimage} />
-        <img src={cloudimage} />
-        <img src={cloudimage} />
-        <img src={cloudimage} />
+        <img src={cloudimage} alt="" />
+        <img src={cloudimage} alt="" />
+        <img src={cloudimage} alt="" />
+        <img src={cloudimage} alt="" />
         <div ref={cloudAnimation3}>
-          <img src={cloudimage} />
-          <img src={cloudimage} />
-          <img src={cloudimage} />
+          <img src={cloudimage} alt="" />
+          <img src={cloudimage} alt="" />
+          <img src={cloudimage} alt="" />
         </div>
       </div>
       <div ref={cloudAnimation2}>
-        <img src={cloudimage} />
-        <img src={cloudimage} />
-        <img src={cloudimage} />
-        <img src={cloudimage} />
+        <img src={cloudimage} alt="" />
+        <img src={cloudimage} alt="" />
+        <img src={cloudimage} alt="" />
+        <img src={cloudimage} alt="" />
         <div ref={cloudAnimation4}>
-          <img src={cloudimage} />
-          <img src={cloudimage} />
-          <img src={cloudimage} />
+          <img src={cloudimage} alt="" />
+          <img src={cloudimage} alt="" />
+          <img src={cloudimage} alt="" />
         </div>
       </div>
 
@@ -114,10 +114,10 @@ if (vehicle === 1) {
       <span ref={jetAnimation}>
         <Jet />
       </span>
-        <img src={mountainimage} height={200} style={{paddingLeft:"60px"}} />
-        <img src={mountainimage} />
-        <img src={mountainimage} height={200} />
-        <img src={mountainimage} />
+        <img src={mountainimage} height={200} style={{paddingLeft:"60px"}} alt="" />
+        <img src={mountainimage} alt="" />
+        <img src={mountainimage} height={200} alt="" />
+        <img src={mountainimage} alt="" />
       </div>
 
     </div>
@@ -132,25 +132,25 @@ if (vehicle === 1) {
       <button onClick={toHelicopter}>Change to Helicopter</button>
 
       <div ref={cloudAnimation1}>
-        <img src={cloudimage} />
-        <img src={cloudimage} />
-        <img src={cloudimage} />
-        <img src={cloudimage} />
+        <img src={cloudimage} alt="" />
+        <img src={cloudimage} alt="" />
+        <img src={cloudimage} alt="" />
+        <img src={cloudimage} alt="" />
         <div ref={cloudAnimation3}>
-          <img src={cloudimage} />
-          <img src={cloudimage} />
-          <img src={cloudimage} />
+          <img src={cloudimage} alt="" />
+          <img src={cloudimage} alt="" />
+          <img src={cloudimage} alt="" />
         </div>
       </div>
       <div ref={cloudAnimation2}>
-        <img src={cloudimage} />
-        <img src={cloudimage} />
-        <img src={cloudimage} />
-        <img src={cloudimage} />
+        <img src={cloudimage} alt="" />
+        <img src={cloudimage} alt="" />
+        <img src={cloudimage} alt="" />
+        <img src={cloudimage} alt="" />
         <div ref={cloudAnimation4}>
-          <img src={cloudimage} />
-          <img src={cloudimage} />
-          <img src={cloudimage} />
+          <img src={cloudimage} alt="" />
+          <img src={cloudimage} alt="" />
+          <img src={cloudimage} alt="" />
         </div>
       </div>
 
@@ -158,10 +158,10 @@ if (vehicle === 1) {
       <span ref={jetAnimation}>
         <Plane />
       </span>
-        <img src={mountainimage} height={200} style={{paddingLeft:"60px"}} />
-        <img src={mountainimage} />
-        <img src={mountainimage} height={200} />
-        <img src={mountainimage} />
+        <img src={mountainimage} height={200} style={{paddingLeft:"60px"}} alt="" />
+        <img src={mountainimage} alt="" />
+        <img src={mountainimage} height={200} alt="" />
+        <img src={mountainimage} alt="" />
       </div>
 
     </div>
@@ -176,25 +176,25 @@ else {
       <button onClick={toJet}>Change to Jet</button>
 
       <div ref={cloudAnimation1}>
-        <img src={cloudimage} />
-        <img src={cloudimage} />
-        <img src={cloudimage} />
-        <img src={cloudimage} />
+        <img src={cloudimage} alt="" />
+        <img src={cloudimage} alt="" />
+        <img src={cloudimage} alt="" />
+        <img src={cloudimage} alt="" />
         <div ref={cloudAnimation3}>
-          <img src={cloudimage} />
-          <img src={cloudimage} />
-          <img src={cloudimage} />
+          <img src={cloudimage} alt="" />
+          <img src={cloudimage} alt="" />
+          <img src={cloudimage} alt="" />
         </div>
       </div>
       <div ref={cloudAnimation2}>
-        <img src={cloudimage} />
-        <img src={cloudimage} />
-        <img src={cloudimage} />
-        <img src={cloudimage} />
+        <img src={cloudimage} alt="" />
+        <img src={cloudimage} alt="" />
+        <img src={cloudimage} alt="" />
+        <img src={cloudimage} alt="" />
         <div ref={cloudAnimation4}>
-          <img src={cloudimage} />
-          <img src={cloudimage} />
-          <img src={cloudimage} />
+          <img src={cloudimage} alt="" />
+          <img src={cloudimage} alt="" />
+          <img src={cloudimage} alt="" />
         </div>
       </div>
 
@@ -202,10 +202,10 @@ else {
       <span ref={jetAnimation}>
         <Helicopter />
       </span>
-        <img src={mountainimage} height={200} style={{paddingLeft:"60px"}} />
-        <img src={mountainimage} />
-        <img src={mountainimage} height={200} />
-        <img src={mountainimage} />
+        <img src={mountainimage} height={200} style={{paddingLeft:"60px"}} alt="" />
+        <img src={mountainimage} alt="" />
+        <img src={mountainimage} height={200} alt="" />
+        <img src={mountainimage} alt="" />
       </div>
 
     </div>

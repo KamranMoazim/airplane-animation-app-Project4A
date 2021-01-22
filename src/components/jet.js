@@ -1,4 +1,4 @@
-import React, { useRef, useLayoutEffect } from 'react'
+import React from 'react'
 import jetimage from '../images/jet.png'
 
 function Jet() {

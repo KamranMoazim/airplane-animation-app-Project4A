@@ -1,4 +1,4 @@
-import React, { useState, useRef, useLayoutEffect } from 'react'
+import React, { useState, useRef } from 'react'
 import cloudimage from './images/clouds.png'
 import mountainimage from './images/mountain.png'
 import Jet from './components/jet.js'
@@ -28,47 +28,47 @@ function App() {
     setVehicle(3)
   }
 
-  useLayoutEffect(() => {
+  // useLayoutEffect(() => {
 
-    var sceneryFrames =[
-        {transform: 'translateX(1535px)'},
-        {transform: 'translateX(-100%)'}
-    ];
-    var cloudTiming1 = {
-        duration: 6000,
-        iterations: Infinity,
-        playbackRate: -2
-    };
-    var cloudTiming2 = {
-        duration: 4000,
-        iterations: Infinity,
-        playbackRate: -2
-    };
-    var cloudTiming3 = {
-        duration: 8000,
-        iterations: Infinity,
-        playbackRate: -2
-    };
-    var cloudTiming4 = {
-        duration: 5000,
-        iterations: Infinity,
-        playbackRate: -2
-    };
+    // var sceneryFrames =[
+    //     {transform: 'translateX(1535px)'},
+    //     {transform: 'translateX(-100%)'}
+    // ];
+    // var cloudTiming1 = {
+    //     duration: 6000,
+    //     iterations: Infinity,
+    //     playbackRate: -2
+    // };
+    // var cloudTiming2 = {
+    //     duration: 4000,
+    //     iterations: Infinity,
+    //     playbackRate: -2
+    // };
+    // var cloudTiming3 = {
+    //     duration: 8000,
+    //     iterations: Infinity,
+    //     playbackRate: -2
+    // };
+    // var cloudTiming4 = {
+    //     duration: 5000,
+    //     iterations: Infinity,
+    //     playbackRate: -2
+    // };
 
 
-    var jetPositions =[
-      {transform: 'translate(1334px, -60px)'},
-      {transform: 'translate(1134px, -100px)'},
-      {transform: 'translate(1134px, -150px)'},
-      {transform: 'translate(1134px, -180px)'},
-      {transform: 'translate(0px, -180px)'}
-  ];
+  //   var jetPositions =[
+  //     {transform: 'translate(1334px, -60px)'},
+  //     {transform: 'translate(1134px, -100px)'},
+  //     {transform: 'translate(1134px, -150px)'},
+  //     {transform: 'translate(1134px, -180px)'},
+  //     {transform: 'translate(0px, -180px)'}
+  // ];
     
-  var forAllVehicleTiming = {
-        duration: speed,
-        iterations: Infinity,
-        playbackRate: -2
-    };
+  // var forAllVehicleTiming = {
+  //       duration: speed,
+  //       iterations: Infinity,
+  //       playbackRate: -2
+  //   };
 
 
     // var background1Movement1 = cloudAnimation1.current.animate(sceneryFrames, cloudTiming1);
@@ -77,7 +77,7 @@ function App() {
     // var background1Movement4 = cloudAnimation4.current.animate(sceneryFrames, cloudTiming4);
     // var background1Movement5 = jetAnimation.current.animate(jetPositions, forAllVehicleTiming);
     
-})
+// })
 
 if (vehicle === 1) {
 
